@@ -527,18 +527,25 @@
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 991px) {
   .banner-caption-heading {
     line-height: 3.23rem;
   }
 }
 
-@media (min-width: 768px) and (max-width: 123px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .post-card-image {
     top: -76px;
   }
 }
-
+@media (min-width: 992px) and (max-width: 1299px) {
+  .project-card-title{
+    font-size: 1.1rem;
+  }
+  .project-card-des{
+    font-size: .98rem;
+  }
+}
 @media (min-width: 1400px) {
   .banner-left-image-wrap {
     padding: 70px;
