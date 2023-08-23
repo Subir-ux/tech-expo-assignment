@@ -863,8 +863,8 @@ a {
 }
 /* Team section end */
 .myButton {
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   background: #2f1bae;
   border: none;
@@ -876,9 +876,7 @@ a {
   border-radius: 5px;
   cursor: pointer;
   outline: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: none;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
